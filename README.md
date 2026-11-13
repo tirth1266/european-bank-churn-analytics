@@ -1,4 +1,5 @@
 # Customer Segmentation and Churn Pattern Analytics in European Banking
+**Live dashboard:** https://bank-churn-tirth.streamlit.app
 
 An interactive Streamlit dashboard that shows who leaves a European retail bank and which customer segments carry the most risk. It uses a dataset of 10,000 customers across France, Germany and Spain.
 
