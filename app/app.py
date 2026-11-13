@@ -5,6 +5,8 @@ import plotly.express as px
 import streamlit as st
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
+from pathlib import Path
+CSV_PATH = Path(__file__).parent / "European_Bank.csv"
 
 st.set_page_config(page_title="European Bank Churn Analytics", page_icon="🏦", layout="wide")
 
@@ -53,8 +55,8 @@ def rate_bar(df: pd.DataFrame, col: str, title: str):
 # ---------------------------------------------------------------- load
 st.title("🏦 European Bank: Customer Segmentation & Churn Analytics")
 
-if os.path.exists(DATA_PATH):
-    raw = load_data(DATA_PATH)
+if CSV_PATH.exists():
+    raw = load_data(str(CSV_PATH))
 else:
     up = st.file_uploader("Upload European_Bank.csv", type="csv")
     if up is None:
