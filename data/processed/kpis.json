@@ -1,0 +1,26 @@
+{
+  "overall": {
+    "customers": 10000,
+    "churned": 2037,
+    "churn_rate": 0.2037,
+    "balance_total": 764858892.88,
+    "Balance_leaving": 185588094.63,
+    "share_of_all_balance_leaving": 1.0
+  },
+  "high_value": {
+    "customers": 2128,
+    "churned": 493,
+    "churn_rate": 0.2317,
+    "balance_total": 324357573.89,
+    "Balance_leaving": 75795337.39,
+    "share_of_all_balance_leaving": 0.4084
+  },
+  "priority": {
+    "customers": 618,
+    "churned": 353,
+    "churn_rate": 0.5712,
+    "balance_total": 81878450.96,
+    "Balance_leaving": 46572046.76,
+    "share_of_all_balance_leaving": 0.2509
+  }
+}
